@@ -7,7 +7,25 @@
 		<key>DrawingApp.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>0</integer>
+			<integer>2</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>7303EE5A1FF3EA720044ED06</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>7303EE701FF3EA720044ED06</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>7303EE7B1FF3EA720044ED06</key>
+		<dict>
+			<key>primary</key>
+			<true/>
 		</dict>
 	</dict>
 </dict>

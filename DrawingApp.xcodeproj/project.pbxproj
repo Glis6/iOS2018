@@ -7,14 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0C5848F83057EDFECF92D8B5 /* Pods_DrawingApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0844D429D03F07A9F21F3F63 /* Pods_DrawingApp.framework */; };
 		7303EE5F1FF3EA720044ED06 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7303EE5E1FF3EA720044ED06 /* AppDelegate.swift */; };
-		7303EE611FF3EA720044ED06 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7303EE601FF3EA720044ED06 /* FirstViewController.swift */; };
-		7303EE631FF3EA720044ED06 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7303EE621FF3EA720044ED06 /* SecondViewController.swift */; };
+		7303EE611FF3EA720044ED06 /* DrawingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7303EE601FF3EA720044ED06 /* DrawingViewController.swift */; };
 		7303EE661FF3EA720044ED06 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7303EE641FF3EA720044ED06 /* Main.storyboard */; };
 		7303EE681FF3EA720044ED06 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7303EE671FF3EA720044ED06 /* Assets.xcassets */; };
-		7303EE6B1FF3EA720044ED06 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7303EE691FF3EA720044ED06 /* LaunchScreen.storyboard */; };
 		7303EE761FF3EA720044ED06 /* DrawingAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7303EE751FF3EA720044ED06 /* DrawingAppTests.swift */; };
 		7303EE811FF3EA720044ED06 /* DrawingAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7303EE801FF3EA720044ED06 /* DrawingAppUITests.swift */; };
+		7310E2B41FFD4BEA00D2B574 /* DrawingService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7310E2B31FFD4BEA00D2B574 /* DrawingService.swift */; };
+		73167AB71FFD2FC900F30D02 /* DrawingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73167AB61FFD2FC900F30D02 /* DrawingsViewController.swift */; };
+		73167AB91FFD305600F30D02 /* DrawingViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73167AB81FFD305600F30D02 /* DrawingViewCell.swift */; };
+		73167ABB1FFD30DF00F30D02 /* Drawing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73167ABA1FFD30DF00F30D02 /* Drawing.swift */; };
+		73849D4C1FFBCD7E003C3C70 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73849D4B1FFBCD7E003C3C70 /* SettingsViewController.swift */; };
+		73E2968A1FFEFCDF00ECDA01 /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73E296891FFEFCDF00ECDA01 /* CameraViewController.swift */; };
+		73E2968E1FFF2CFA00ECDA01 /* UIImageWhiteTransparency.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73E2968D1FFF2CFA00ECDA01 /* UIImageWhiteTransparency.swift */; };
+		73E56FFE2001262D002F62F4 /* KituraService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73E56FFD2001262D002F62F4 /* KituraService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,13 +42,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0844D429D03F07A9F21F3F63 /* Pods_DrawingApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DrawingApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		27211C71BA4D37AE4FD7DCE5 /* Pods-DrawingApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DrawingApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DrawingApp/Pods-DrawingApp.debug.xcconfig"; sourceTree = "<group>"; };
 		7303EE5B1FF3EA720044ED06 /* DrawingApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DrawingApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7303EE5E1FF3EA720044ED06 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		7303EE601FF3EA720044ED06 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
-		7303EE621FF3EA720044ED06 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		7303EE601FF3EA720044ED06 /* DrawingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawingViewController.swift; sourceTree = "<group>"; };
 		7303EE651FF3EA720044ED06 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		7303EE671FF3EA720044ED06 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		7303EE6A1FF3EA720044ED06 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7303EE6C1FF3EA720044ED06 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7303EE711FF3EA720044ED06 /* DrawingAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DrawingAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7303EE751FF3EA720044ED06 /* DrawingAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawingAppTests.swift; sourceTree = "<group>"; };
@@ -49,6 +56,15 @@
 		7303EE7C1FF3EA720044ED06 /* DrawingAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DrawingAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7303EE801FF3EA720044ED06 /* DrawingAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawingAppUITests.swift; sourceTree = "<group>"; };
 		7303EE821FF3EA720044ED06 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7310E2B31FFD4BEA00D2B574 /* DrawingService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawingService.swift; sourceTree = "<group>"; };
+		73167AB61FFD2FC900F30D02 /* DrawingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawingsViewController.swift; sourceTree = "<group>"; };
+		73167AB81FFD305600F30D02 /* DrawingViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawingViewCell.swift; sourceTree = "<group>"; };
+		73167ABA1FFD30DF00F30D02 /* Drawing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Drawing.swift; sourceTree = "<group>"; };
+		73849D4B1FFBCD7E003C3C70 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		73E296891FFEFCDF00ECDA01 /* CameraViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraViewController.swift; sourceTree = "<group>"; };
+		73E2968D1FFF2CFA00ECDA01 /* UIImageWhiteTransparency.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIImageWhiteTransparency.swift; sourceTree = "<group>"; };
+		73E56FFD2001262D002F62F4 /* KituraService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KituraService.swift; sourceTree = "<group>"; };
+		97F029394436E7376BD8B614 /* Pods-DrawingApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DrawingApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-DrawingApp/Pods-DrawingApp.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +72,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0C5848F83057EDFECF92D8B5 /* Pods_DrawingApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -76,6 +93,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		17BBC9E35F13D937625E01AD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0844D429D03F07A9F21F3F63 /* Pods_DrawingApp.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		7303EE521FF3EA720044ED06 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +108,8 @@
 				7303EE741FF3EA720044ED06 /* DrawingAppTests */,
 				7303EE7F1FF3EA720044ED06 /* DrawingAppUITests */,
 				7303EE5C1FF3EA720044ED06 /* Products */,
+				F6DE8F83A05CF13B203D2DF8 /* Pods */,
+				17BBC9E35F13D937625E01AD /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,12 +126,13 @@
 		7303EE5D1FF3EA720044ED06 /* DrawingApp */ = {
 			isa = PBXGroup;
 			children = (
+				73E2968C1FFF2CE200ECDA01 /* Extensions */,
+				73202D121FFE6FCC00DD5B1F /* ViewControllers */,
+				73202D111FFE6FC800DD5B1F /* Models */,
+				73202D101FFE6FBD00DD5B1F /* Services */,
 				7303EE5E1FF3EA720044ED06 /* AppDelegate.swift */,
-				7303EE601FF3EA720044ED06 /* FirstViewController.swift */,
-				7303EE621FF3EA720044ED06 /* SecondViewController.swift */,
 				7303EE641FF3EA720044ED06 /* Main.storyboard */,
 				7303EE671FF3EA720044ED06 /* Assets.xcassets */,
-				7303EE691FF3EA720044ED06 /* LaunchScreen.storyboard */,
 				7303EE6C1FF3EA720044ED06 /* Info.plist */,
 			);
 			path = DrawingApp;
@@ -128,6 +156,52 @@
 			path = DrawingAppUITests;
 			sourceTree = "<group>";
 		};
+		73202D101FFE6FBD00DD5B1F /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				7310E2B31FFD4BEA00D2B574 /* DrawingService.swift */,
+				73E56FFD2001262D002F62F4 /* KituraService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		73202D111FFE6FC800DD5B1F /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				73167ABA1FFD30DF00F30D02 /* Drawing.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		73202D121FFE6FCC00DD5B1F /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				73167AB61FFD2FC900F30D02 /* DrawingsViewController.swift */,
+				7303EE601FF3EA720044ED06 /* DrawingViewController.swift */,
+				73E296891FFEFCDF00ECDA01 /* CameraViewController.swift */,
+				73849D4B1FFBCD7E003C3C70 /* SettingsViewController.swift */,
+				73167AB81FFD305600F30D02 /* DrawingViewCell.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		73E2968C1FFF2CE200ECDA01 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				73E2968D1FFF2CFA00ECDA01 /* UIImageWhiteTransparency.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		F6DE8F83A05CF13B203D2DF8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				27211C71BA4D37AE4FD7DCE5 /* Pods-DrawingApp.debug.xcconfig */,
+				97F029394436E7376BD8B614 /* Pods-DrawingApp.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +209,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7303EE851FF3EA720044ED06 /* Build configuration list for PBXNativeTarget "DrawingApp" */;
 			buildPhases = (
+				A62C34BAF83AAB3CFACB3061 /* [CP] Check Pods Manifest.lock */,
 				7303EE571FF3EA720044ED06 /* Sources */,
 				7303EE581FF3EA720044ED06 /* Frameworks */,
 				7303EE591FF3EA720044ED06 /* Resources */,
+				08740DCF4DEF701E277DA309 /* [CP] Embed Pods Frameworks */,
+				317AB0B345DE3E48D6B87A68 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -235,7 +312,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7303EE6B1FF3EA720044ED06 /* LaunchScreen.storyboard in Resources */,
 				7303EE681FF3EA720044ED06 /* Assets.xcassets in Resources */,
 				7303EE661FF3EA720044ED06 /* Main.storyboard in Resources */,
 			);
@@ -257,14 +333,75 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		08740DCF4DEF701E277DA309 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-DrawingApp/Pods-DrawingApp-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/KituraKit/KituraKit.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/KituraKit.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DrawingApp/Pods-DrawingApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		317AB0B345DE3E48D6B87A68 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DrawingApp/Pods-DrawingApp-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A62C34BAF83AAB3CFACB3061 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DrawingApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		7303EE571FF3EA720044ED06 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7303EE631FF3EA720044ED06 /* SecondViewController.swift in Sources */,
+				73849D4C1FFBCD7E003C3C70 /* SettingsViewController.swift in Sources */,
+				7310E2B41FFD4BEA00D2B574 /* DrawingService.swift in Sources */,
 				7303EE5F1FF3EA720044ED06 /* AppDelegate.swift in Sources */,
-				7303EE611FF3EA720044ED06 /* FirstViewController.swift in Sources */,
+				73167ABB1FFD30DF00F30D02 /* Drawing.swift in Sources */,
+				7303EE611FF3EA720044ED06 /* DrawingViewController.swift in Sources */,
+				73167AB91FFD305600F30D02 /* DrawingViewCell.swift in Sources */,
+				73E2968E1FFF2CFA00ECDA01 /* UIImageWhiteTransparency.swift in Sources */,
+				73167AB71FFD2FC900F30D02 /* DrawingsViewController.swift in Sources */,
+				73E56FFE2001262D002F62F4 /* KituraService.swift in Sources */,
+				73E2968A1FFEFCDF00ECDA01 /* CameraViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -306,14 +443,6 @@
 				7303EE651FF3EA720044ED06 /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		7303EE691FF3EA720044ED06 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				7303EE6A1FF3EA720044ED06 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -428,6 +557,7 @@
 		};
 		7303EE861FF3EA720044ED06 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 27211C71BA4D37AE4FD7DCE5 /* Pods-DrawingApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -442,6 +572,7 @@
 		};
 		7303EE871FF3EA720044ED06 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 97F029394436E7376BD8B614 /* Pods-DrawingApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
